@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.html" />
+    <Content Include="Contact.html" />
     <Content Include="Content.html" />
     <Content Include="css\Stylesheet.css" />
     <Content Include="index - Copy.html" />
