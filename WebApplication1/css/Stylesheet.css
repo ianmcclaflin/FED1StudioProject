@@ -6,3 +6,33 @@ header{font-style:italic;
 
 
 }
+nav a {
+    font-weight: bold;
+    color: lightsalmon;
+}
+
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: teal;
+    padding: 0;
+    border-top: 2px dotted darkgray;
+    border-bottom: 2px dotted darkgray;
+}
+
+nav li:hover {
+    background-color: darkblue;
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .4em 1em;
+        display: block;
+    }
+
