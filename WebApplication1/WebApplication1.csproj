@@ -71,7 +71,9 @@
     <Content Include="Contact.html" />
     <Content Include="Content.html" />
     <Content Include="css\Stylesheet.css" />
-    <Content Include="images\amit-lahav-rxN2MRdFJVg-unsplash.jpg" />
+    <Content Include="images\apple.jpg" />
+    <Content Include="images\favicon number 1.ico" />
+    <Content Include="images\classroom.jpg" />
     <Content Include="index - Copy.html" />
     <Content Include="index.html" />
     <Content Include="Team.html" />

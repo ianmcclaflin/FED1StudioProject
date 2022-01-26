@@ -35,3 +35,60 @@ nav ul li {
         padding: .4em 1em;
         display: block;
     }
+
+body {
+ 
+    background-image: url(../images/classroom.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+
+#headerOverlay {
+    background-image: url(../images/apple.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 3% center;
+    padding: 2em;
+}
+
+header h1, header p {
+    margin: 7px 0 7px 150px;
+}
+
+header h1 {
+
+    letter-spacing: 0.1em;
+    color: #000000
+}
+
+header {
+    border-radius: 5px;
+}
+
+/*Create a gallery layout for images.html*/
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lightsalmon;
+    }
+
+    div.galleryItem img {
+        width: 30%;
+        height: auto;
+    }
+
+    div.galleryItem a:hover {
+        background-color: lightsalmon;
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
