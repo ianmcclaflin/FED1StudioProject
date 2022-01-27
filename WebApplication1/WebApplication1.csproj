@@ -72,8 +72,14 @@
     <Content Include="Content.html" />
     <Content Include="css\Stylesheet.css" />
     <Content Include="images\apple.jpg" />
+    <Content Include="images\Favicon apple.png" />
     <Content Include="images\favicon number 1.ico" />
     <Content Include="images\classroom.jpg" />
+    <Content Include="images\Number 2.ico" />
+    <Content Include="images\Number 3.ico" />
+    <Content Include="images\Number 4.ico" />
+    <Content Include="images\Number 5.ico" />
+    <Content Include="images\Number 6.ico" />
     <Content Include="index - Copy.html" />
     <Content Include="index.html" />
     <Content Include="Team.html" />
