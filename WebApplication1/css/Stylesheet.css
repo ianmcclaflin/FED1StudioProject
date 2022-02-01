@@ -3,8 +3,9 @@ background-color:paleturquoise;
 
 }
 header{font-style:italic;
-
-
+       border:solid;
+       background-color:white;
+       margin:auto;
 }
 nav a {
     font-weight: bold;
@@ -52,8 +53,14 @@ body {
     padding: 2em;
 }
 
+main {
+    background-color: aliceblue;
+    margin: auto;
+}
+
 header h1, header p {
-    margin: 7px 0 7px 150px;
+    margin: 14px 0 14px 150px;
+    
 }
 
 header h1 {
@@ -91,4 +98,12 @@ div.galleryItem {
     margin: 0 auto;
     width: 85%;
     text-align: center;
+}
+
+footer {
+
+    border: solid;
+    border-color:black;
+    background-color:aliceblue;
+
 }
