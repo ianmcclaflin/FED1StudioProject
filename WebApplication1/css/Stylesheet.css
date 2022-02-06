@@ -1,12 +1,20 @@
-﻿body {
-background-color:paleturquoise;
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@100&family=Space+Mono&display=swap');
 
+
+
+body {
+    background-color: paleturquoise;
 }
 header{font-style:italic;
+       font-family:Arial; 
        border:solid;
        background-color:white;
        margin:auto;
 }
+
+
+
 nav a {
     font-size:large;
     font-weight: bold;
@@ -49,15 +57,34 @@ body {
     padding: 2em;
 }
 
+#headerFavicons {
+    margin-bottom:auto;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position:right;
+    float:right;
+}
+
+#footerFavicons {
+    margin-bottom: auto;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: right;
+    float: right;
+}
 
 
-main {
-    background-color: darkgray;
+main{
+    background-color: white;
     margin: auto;
+    text-align: center;
+    font-family: 
+    border:thin;
 }
 
 header h1, header p {
     margin: 14px 0 14px 150px;
+
     
 }
 
@@ -74,8 +101,8 @@ header {
 /*Create a gallery layout for images.html*/
 div.galleryItem {
     margin: 5px;
-     
-    display: inline-block;
+    
+    display:inline-block;
     width: 350px;
 }
 
@@ -108,15 +135,21 @@ footer {
     border-color:black;
     background-color:aliceblue;
 
+
 }
 
 #teamAside {
     width: 25%;
     float: right;
+
 }
 
 aside {
     display: block;
     border:double;
     background-color: antiquewhite;
+}
+
+#contactPage {
+    text-decoration:underline;
 }
