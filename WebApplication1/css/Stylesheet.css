@@ -8,23 +8,19 @@ header{font-style:italic;
        margin:auto;
 }
 nav a {
+    font-size:large;
     font-weight: bold;
-    color: lightsalmon;
+    color: black;
 }
 
     nav a:hover, nav a:active, nav a:focus {
         text-decoration: none;
     }
 
-nav ul {
-    background-color: teal;
-    padding: 0;
-    border-top: 2px darkgray;
-    border-bottom: 2px darkgray;
-}
+
 
 nav li:hover {
-    background-color: darkblue;
+    background-color: antiquewhite;
 }
 
 
@@ -53,8 +49,10 @@ body {
     padding: 2em;
 }
 
+
+
 main {
-    background-color: aliceblue;
+    background-color: darkgray;
     margin: auto;
 }
 
@@ -76,13 +74,13 @@ header {
 /*Create a gallery layout for images.html*/
 div.galleryItem {
     margin: 5px;
-    border: 1px solid #ccc;
+     
     display: inline-block;
     width: 350px;
 }
 
     div.galleryItem:hover {
-        border: 1px solid lightsalmon;
+        border: 1px solid black;
     }
 
     div.galleryItem img {
@@ -90,8 +88,8 @@ div.galleryItem {
         height: auto;
     }
 
-    div.galleryItem a:hover {
-        background-color: lightsalmon;
+    div.galleryItem hover {
+        background-color: black;
     }
 
 #imageGallery {
@@ -100,10 +98,25 @@ div.galleryItem {
     text-align: center;
 }
 
+.mainWrapper {
+    padding: 1%;
+}
+
 footer {
 
     border: solid;
     border-color:black;
     background-color:aliceblue;
 
+}
+
+#teamAside {
+    width: 25%;
+    float: right;
+}
+
+aside {
+    display: block;
+    border:double;
+    background-color: antiquewhite;
 }

@@ -71,6 +71,9 @@
     <Content Include="Contact.html" />
     <Content Include="Content.html" />
     <Content Include="css\Stylesheet.css" />
+    <Content Include="images\5296516_tweet_twitter_twitter logo_icon.png" />
+    <Content Include="images\5296765_camera_instagram_instagram logo_icon.png" />
+    <Content Include="images\5365678_fb_facebook_facebook logo_icon.png" />
     <Content Include="images\apple.jpg" />
     <Content Include="images\Favicon apple.png" />
     <Content Include="images\favicon number 1.ico" />
