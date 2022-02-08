@@ -77,15 +77,59 @@ body {
 main{
     background-color: white;
     margin: auto;
+    text-align: left;
+    font-family: 'Californian FB'
+    
+    
+}
+
+#aboutUsHeaderText{
+    text-decoration: underline;
+}
+
+#whyChooseUs {
+    font-size:xx-large;
+    font-weight:bolder;
+    color: black;
+    text-align:center;
+    padding-right: 6em;
+    
+}
+
+
+#whyChooseRightText{
+
     text-align: center;
-    font-family: 
-    border:thin;
+    padding-right: 2em;
+}
+
+#whyChooseLeftText{
+
+    text-align: left;
+    padding-left: 2em;
+}
+
+#whyChooseUsImgLeft {
+    margin: auto;
+    width: 20%;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#whyChooseUsImgRight {
+    margin: auto;
+    width: 20%;
+    float: right;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 header h1, header p {
     margin: 14px 0 14px 150px;
-
-    
 }
 
 header h1 {
@@ -125,6 +169,16 @@ div.galleryItem {
     text-align: center;
 }
 
+#aboutUsPic {
+    margin: auto;
+    width: 10%;
+    float: left;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .mainWrapper {
     padding: 1%;
 }
@@ -152,4 +206,16 @@ aside {
 
 #contactPage {
     text-decoration:underline;
+    text-align:center;
+
+}
+
+#contactPageMain{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#indexMain{
+    margin-left: 100px;
+    margin-right: 100px;
 }
