@@ -71,16 +71,17 @@ body {
     background-size: 10px;
     background-position: right;
     float: right;
+    padding-right: 2em;
 }
 
 
-main{
+main {
     background-color: white;
     margin: auto;
     text-align: left;
-    font-family: 'Californian FB'
-    
-    
+    font-family: 'Californian FB';
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #aboutUsHeaderText{
@@ -188,6 +189,7 @@ footer {
     border: solid;
     border-color:black;
     background-color:aliceblue;
+    height: 100px;
 
 
 }
@@ -211,8 +213,8 @@ aside {
 }
 
 #contactPageMain{
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #indexMain{
