@@ -119,14 +119,10 @@ main {
     padding-bottom: 2em;
 }
 
-#whyChooseUsImgRight {
-    margin: auto;
-    width: 20%;
+#whyChooseUsImgRightPicture {
     float: right;
-    padding-right: 2em;
-    padding-left: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    height: 200px;
+    margin-right: 400px;
 }
 
 header h1, header p {
@@ -204,6 +200,7 @@ aside {
     display: block;
     border:double;
     background-color: antiquewhite;
+    height: 100%;
 }
 
 #contactPage {
@@ -220,4 +217,24 @@ aside {
 #indexMain{
     margin-left: 100px;
     margin-right: 100px;
+}
+
+#whyChooseUsFirstRow {
+    display: block;
+}
+
+#whyChooseUsImgLeftPicture{
+    float: left;
+    height: 200px;
+    margin-left: 400px;
+}
+
+#whyChooseUsRightTextBox{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#whyChooseUSLeftTextBox{
+    padding-left: 2em;
+    padding-right: 2em;
 }
