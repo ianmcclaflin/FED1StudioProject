@@ -1,5 +1,5 @@
 ﻿
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@100&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
 
@@ -79,7 +79,7 @@ main {
     background-color: white;
     margin: auto;
     text-align: left;
-    font-family: 'Californian FB';
+    
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -89,12 +89,12 @@ main {
 }
 
 #whyChooseUs {
-    font-size:xx-large;
-    font-weight:bolder;
+    font-size: xx-large;
+    font-weight: bolder;
     color: black;
-    text-align:center;
+    text-align: center;
     padding-right: 6em;
-    
+ 
 }
 
 
@@ -102,6 +102,7 @@ main {
 
     text-align: center;
     padding-right: 2em;
+    
 }
 
 #whyChooseLeftText{
@@ -139,16 +140,16 @@ header {
     border-radius: 5px;
 }
 
-/*Create a gallery layout for images.html*/
+
 div.galleryItem {
     margin: 5px;
-    
-    display:inline-block;
+    border: 1px solid #ccc;
+    display: inline-block;
     width: 350px;
 }
 
     div.galleryItem:hover {
-        border: 1px solid black;
+        border: 1px solid lightsalmon;
     }
 
     div.galleryItem img {
@@ -156,9 +157,16 @@ div.galleryItem {
         height: auto;
     }
 
-    div.galleryItem hover {
-        background-color: black;
+    div.galleryItem a:hover {
+        background-color: lightsalmon;
     }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
 
 #imageGallery {
     margin: 0 auto;
@@ -184,7 +192,7 @@ footer {
 
     border: solid;
     border-color:black;
-    background-color:aliceblue;
+    background-color:white;
     height: 100px;
 
 
@@ -193,6 +201,8 @@ footer {
 #teamAside {
     width: 25%;
     float: right;
+    max-height: 100%;
+    text-align: left;
 
 }
 
@@ -204,9 +214,9 @@ aside {
 }
 
 #contactPage {
-    text-decoration:underline;
-    text-align:center;
-
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Roboto';
 }
 
 #contactPageMain{
@@ -232,9 +242,80 @@ aside {
 #whyChooseUsRightTextBox{
     padding-right: 2em;
     padding-left: 2em;
+    float: left;
 }
 
 #whyChooseUSLeftTextBox{
     padding-left: 2em;
+    padding-right: 2em;
+    float: right;
+}
+
+#classSubjectsHeading {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+div.description {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse; /*Avoids dublicate adjancent borders inside the table.*/
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th, {
+    padding: .3em;
+}
+
+thead {
+    background-color: #96F3FA;
+}
+
+tfoot {
+    background-color: teal;
+}
+
+    tfoot tr, tfoot td {
+        border: 0;
+    }
+
+tbody tr:nth-child(even) {
+    background-color: lightsalmon;
+}
+
+#teamSubjectHeading {
+    text-align: center;
+    font-size: 50px;
+}
+
+#whyChooseUsClasses {
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    top: 8px;
+    padding-left: 2em;
+}
+
+#whyChooseUsResources {
+    text-align: center;
+    font-size: 30px;
+    float: right;
+    top: 8px;
     padding-right: 2em;
 }
