@@ -319,3 +319,7 @@ tbody tr:nth-child(even) {
     top: 8px;
     padding-right: 2em;
 }
+
+#teamlist {
+    float: left;
+}
