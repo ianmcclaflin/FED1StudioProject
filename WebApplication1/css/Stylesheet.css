@@ -19,6 +19,7 @@ nav a {
     font-size:large;
     font-weight: bold;
     color: black;
+    background: border-box;
 }
 
     nav a:hover, nav a:active, nav a:focus {
@@ -31,9 +32,15 @@ nav li:hover {
     background-color: antiquewhite;
 }
 
+nav ul {
+    background-color: white;
+    border: solid;
+}
+
 
 nav ul li {
     display: inline-block;
+    
 }
 
     nav ul li a {
@@ -149,7 +156,7 @@ div.galleryItem {
 }
 
     div.galleryItem:hover {
-        border: 1px solid lightsalmon;
+        border: 1px solid white;
     }
 
     div.galleryItem img {
@@ -158,7 +165,7 @@ div.galleryItem {
     }
 
     div.galleryItem a:hover {
-        background-color: lightsalmon;
+        background-color: red;
     }
 
 #imageGallery {
@@ -180,7 +187,7 @@ div.galleryItem {
     float: left;
     padding-right: 2em;
     padding-left: 2em;
-
+    padding-top: 1em;
     padding-bottom: 2em;
 }
 
