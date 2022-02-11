@@ -20,6 +20,7 @@ nav a {
     font-weight: bold;
     color: black;
     background: border-box;
+    
 }
 
     nav a:hover, nav a:active, nav a:focus {
@@ -35,6 +36,7 @@ nav li:hover {
 nav ul {
     background-color: white;
     border: solid;
+    
 }
 
 
@@ -187,8 +189,18 @@ div.galleryItem {
     float: left;
     padding-right: 2em;
     padding-left: 2em;
-    padding-top: 1em;
+
     padding-bottom: 2em;
+}
+
+#aboutUsPicIndex {
+    margin: auto;
+    width: 10%;
+    float: left;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-top: 1em;
 }
 
 .mainWrapper {
@@ -273,7 +285,7 @@ div.description {
 
 table, tr, td, th {
     border: 1px solid black;
-    border-collapse: collapse; /*Avoids dublicate adjancent borders inside the table.*/
+    border-collapse: collapse; 
 }
 
 table {
